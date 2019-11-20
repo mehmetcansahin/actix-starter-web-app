@@ -23,7 +23,7 @@ note: ld: library not found for -lmysqlclient
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 ````
 
-This means you are missing the client library needed for a database backend – mysqlclient in this case. You can resolve this issue by either installing the library (using the usual way to do this depending on your operating system) or by specifying the backends you want to install the CLI tool with. [https://diesel.rs/guides/getting-started/](Diesel.rs)
+This means you are missing the client library needed for a database backend – mysqlclient in this case. You can resolve this issue by either installing the library (using the usual way to do this depending on your operating system) or by specifying the backends you want to install the CLI tool with. Source: [Diesel.rs](https://diesel.rs/guides/getting-started/)
 
 ## APIs
 
